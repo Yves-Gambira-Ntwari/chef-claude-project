@@ -1,4 +1,6 @@
-import Chef from "./chefCloude/Chef"
+import Chef from "./components/Chef"
+import { Header } from "./components/Header"
+import Main from "./components/Main"
 import "./style.css"
 
 
@@ -6,7 +8,8 @@ export default function App() {
 
   return (
     <>
-    <Chef />
+    <Header />
+    <Main />
     </>
   )
 }

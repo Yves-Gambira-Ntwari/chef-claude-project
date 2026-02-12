@@ -1,9 +1,9 @@
-import chefLogo from "../img/Learning.png"
+import LearningImg from '../img/Learning.png';
 export function Header(){
   return(
     <>
     <header>
-      <img src={chefLogo}/>
+      <img src={LearningImg}/>
       <h1>Chef Claude</h1>
     </header>
     </>
